@@ -14,7 +14,7 @@ CREATE TABLE `users` (
   `updated_at` TIMESTAMP DEFAULT NOW()
 );
 
-INSERT INTO `users` (first_name, last_name, email, PASSWORD)
+INSERT INTO `users` (`first_name`, `last_name`, `email`, `password`)
 VALUES (
     "John",
     "Doe",
