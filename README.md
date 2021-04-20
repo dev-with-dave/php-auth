@@ -105,9 +105,11 @@ Ca commence à se corser avec la page de connexion, ici on va devoir:
 
 > un utilisateur existe deja en base
 
-> email: john-dw@gmail.com
+- email: john-dw@gmail.com
 
-> mot de passe: Password_DW1234+
+- mot de passe: Password_DW1234+
+
+> NB: d'après l'intégrateur les messages d'erreur devront être mis dans un paragraphe avec la class error et affiché que s'il y'a une erreur (il a laissé des commentaire la ou se trouveront les messages d'erreur)
 
 <details>
   <summary>Pour vérifier les erreurs du formulaire</summary>
@@ -148,6 +150,8 @@ Ici on va mettre le paquet au niveau des vérifications ! On va:
 A ce stade on va bien entendu vouloir garder les données précédement transmises par l'utilisateur pour qu'il n'ai pas à tout retaper.
 
 Une fois toutes les vérifications passée on va pouvoir inscrire notre utilisateur en base de donnée en prenant soin de sécuriser son mot de passe en le cryptant. On pourra ensuite le rediriger vers la page login.php pour qu'il puisse se connecter.
+
+> NB: d'après l'intégrateur les messages d'erreur devront être mis dans un paragraphe avec la class error et affiché que s'il y'a une erreur (il a laissé des commentaire la ou se trouveront les messages d'erreur)
 
 <details>
   <summary>Pour vérifier que l'email est bien un email et que le mot de passe correspond à un certain niveau de sécurité</summary>
